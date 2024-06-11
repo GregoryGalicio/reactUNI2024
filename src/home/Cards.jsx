@@ -1,4 +1,5 @@
 // import React from "react";
+import './Cards.css'
 
 import { useEffect } from "react";
 import { useState } from "react";
@@ -36,6 +37,7 @@ function Cards() {
               <th>Especie</th>
               <th>Last Known location</th>
               <th>First seen in</th>
+              <th>Foto</th>
             </tr>
           </thead>
           <tbody>
@@ -46,6 +48,7 @@ function Cards() {
                 <td>{item.status}-{item.species}</td>
                 <td>{item.origin.name}</td>
                 <td>{item.location.name}</td>
+                <td><img className="imgItem" src={item.image} alt={item.img} /></td>
               </tr>
             ))}
           </tbody>
