@@ -6,8 +6,9 @@ import MainFooter from "./common/MainFooter";
 import Nosotros from "./home/Nosotros";
 import Noticias from "./home/Noticias";
 import "./App.css";
-import MainBanner1 from "./home/MainBanner1";
+import MainBanner from "./home/MainBanner";
 import Envios from "./home/Envios";
+import Cards from "./home/Cards";
 
 
 function App() {
@@ -16,10 +17,11 @@ function App() {
   return (
     <>
       <MainHeader></MainHeader>
-      <MainBanner1/>
+      <MainBanner/>
       <Nosotros></Nosotros>
       <Noticias />
       <Envios/>
+      <Cards/>
       <MainFooter></MainFooter>
     </>
   );
