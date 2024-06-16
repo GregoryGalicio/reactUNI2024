@@ -3,4 +3,9 @@
     height: 100px;
     width: 100px;
     margin-top: 4px;
+    /* display: flex; */
+    border: solid var(--color3) 2px;
+    margin: auto;
 }
+
+
