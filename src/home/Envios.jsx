@@ -40,7 +40,6 @@ function Envios() {
           </thead>
           <tbody>
             {listaEnvios.map((item) => (
-              
               <tr key={item.empresaenvio}>
                 <td>{item.idempresaenvio}</td>
                 <td>{item.nombre}</td>
