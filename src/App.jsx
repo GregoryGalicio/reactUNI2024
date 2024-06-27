@@ -15,7 +15,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <MainHeader></MainHeader>
+      <MainHeader/>
       <MainNav />
       <main>
         <Routes>
